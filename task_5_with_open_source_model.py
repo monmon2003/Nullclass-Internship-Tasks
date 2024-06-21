@@ -19,7 +19,7 @@ def translate_to_hindi(word):
 def main():
     word = input("Enter an English word: ")
     current_time = get_current_time()
-    if current_time.hour != 22:
+    if current_time.hour != 21:
         print("Please try between 9 PM and 10 PM IST.")
         return
     
